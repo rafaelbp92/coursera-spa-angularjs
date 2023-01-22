@@ -49,10 +49,12 @@
           }
         };
       
+        // Get the to buy items
         service.getToBuyItems = function () {
           return toBuyList;
         };
 
+        // Get the already bought items
         service.getAlreadyBoughtItems = function () {
             return alreadyBoughtList;
           };
