@@ -1,0 +1,5 @@
+<div class="btn-group-vertical">
+    <button ng-repeat="category in $ctrl.categories" class="btn btn-success" ui-sref="items({categoryShortName: category.short_name})">
+        {{category.short_name}} - {{category.name}}
+    </button>
+</div>
