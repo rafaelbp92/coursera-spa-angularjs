@@ -200,3 +200,11 @@ a[ui-sref="admin.auth"] {
   }
   /* End Header */
 }
+
+#signup-form input {
+  color: #000;
+}
+
+#sign-up-container legend {
+  color: #fff;
+}

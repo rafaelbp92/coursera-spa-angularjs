@@ -1,0 +1,15 @@
+<div class="container" ng-if="userInfoCtrl.user">
+    <p>First name: {{ userInfoCtrl.user.firstname }}</p>
+    <p>Last name: {{ userInfoCtrl.user.lastname }}</p>
+    <p>Email: {{ userInfoCtrl.user.email }}</p>
+    <p>Phone: {{ userInfoCtrl.user.phone }}</p>
+    <p>Favorite menu item:</p>
+    <menu-item
+        menu-item="userInfoCtrl.user.favoriteitem"
+        category-short-name="userInfoCtrl.user.favoriteitem.category">
+    </menu-item>
+</div>
+
+<div class="container" ng-if="!userInfoCtrl.user">
+    <span role="button" class="text-center" ui-sref="public.signup">Not Signed Up Yet. Sign up Now!</span>
+</div>
