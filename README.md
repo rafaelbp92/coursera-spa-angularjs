@@ -1,4 +1,4 @@
-# Coursera - John Hopkings - AngularJS Course
+# Coursera - John Hopkins - AngularJS Course
 
 This repository contains a series of projects developed during the course as assigments
 some AngularJS concepts applied are:
